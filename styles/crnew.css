@@ -41,22 +41,6 @@
     transition-property: border-left, border-right, box-shadow;
     
   }
-
-  .form button{
-    display: block;
-    width: 100px;
-    height: 50px;
-    background: #d3dadb;
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    line-height: 25px;
-    margin-bottom: 50px;
-    margin-left: 115px;
-    position: inherit;
-  }
  .accounts{
     font-family: "Poppins", sans-serif;
     position: absolute;
@@ -71,3 +55,44 @@
     justify-content: center;
     text-align: center  ;
  }
+
+ div .gender{
+    color: rgb(145, 195, 199);
+    font-size: 20px;
+    font-weight: bold;
+    
+ }
+
+div .dob{
+    color: rgb(145, 195, 199);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ending label{
+  align-items: center;
+  margin-bottom: 50px;
+  color: #ffffff;
+  margin-top: -50px;
+  
+}
+.btn{
+    display: block;
+    width: 100px;
+    height: 50px;
+    background: #d3dadb;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 25px;
+    top: 100px;
+    margin-left: 35%;
+    margin-top: 30px;
+}
+.log{
+  top: 100px;
+  align-items: center;
+  margin-top: 20px;
+}
