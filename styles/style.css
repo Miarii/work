@@ -1,0 +1,70 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/bg.jpg);
+  }
+  h1{
+    color: rgb(255, 255, 255);
+  }
+
+  .form{
+    z-index: 1;
+    font-family: "Poppins", sans-serif;
+    position: absolute; 
+    width: 320px;
+    text-align: center;
+  }
+
+  .form .form_input{
+    width: 320px;
+    height: 55px;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+    background: rgb(49, 92, 95);
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.5s;
+    transition-property: border-left, border-right, box-shadow;
+  }
+
+  .form button{
+    display: block;
+    width: 100px;
+    height: 50px;
+    background: #d3dadb;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 25px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+  }
+ .accounts{
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    width: 310px;
+    text-align: center;
+    justify-content: center ;
+    color: rgb(197, 253, 255);
+ }
+
+ .accounts{
+    align-items: center;
+    justify-content: center;
+    text-align: center  ;
+ }
